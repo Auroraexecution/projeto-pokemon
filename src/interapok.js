@@ -9,8 +9,8 @@ botaoAlterar.addEventListener("click", () => {
     console.log("Modo escuro está ativo")
     body.classList.toggle("modo-escuro")
     if(modoEscuroAtivo) {
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/Imagenspok/sun.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/Imagenspok/sun.png")
     } else {
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/Imagenspok/moon.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/Imagenspok/moon.png")
     }
 })
