@@ -89,7 +89,7 @@ main .cartao-pokemon .tipo{
     overflow-y: scroll;
 }
 .grama{
-    background-color: greenyellow;
+    background-color: rgb(112, 216, 52);
 }
 .veneno{
     background-color: rgb(110, 42, 110);
